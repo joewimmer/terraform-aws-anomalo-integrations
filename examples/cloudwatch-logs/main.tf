@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "anomalo_eventbridge" {
-  source              = "github.com/joewimmer/terraform-aws-anomalo-eventbridge"
+  source = "github.com/joewimmer/terraform-aws-anomalo-eventbridge"
 }
 
 module "cloudwatch_logs" {
